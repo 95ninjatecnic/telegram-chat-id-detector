@@ -65,8 +65,124 @@ pip install -r requirements.txt
 python chat_id.py
 ```
 
+4. **Provide credentials**
+
+Bot Token: Create a bot using BotFather and get the token.
+
+API ID & Hash: Obtain from my.telegram.org
+.
+
+After entering the credentials, the bot will start:
+
+✅ Bot is running...
+👉 Forward any message, type username, or send typed message to test
 
 
+##🔹 How It Works
+1. Forwarded Message Detection
+
+When a message is forwarded from a group or channel, the bot extracts:
+
+Chat ID of the original sender or channel
+
+Account Name
+
+Chat Type (Channel / Group)
+
+Sender ID
+
+Message Title or Media Name
+
+Date & Time
+
+Forwarded status
+
+Media type
+
+Message Type: Forwarded
+
+Example Output:
+
+📌 Chat Info:
+🆔 Chat ID: 2062558134
+💬 Account Name: Naruto anime lover
+📂 Chat Type: Channel
+👤 Sender ID: 6152817532
+✉️ Message Title: hi
+🕒 Date & Time: 2025-08-24 08:47:25
+📂 Forwarded: Yes
+📂 Media: No
+📂 Message Type: Forwarded
+
+2. Username Lookup
+
+Send a Telegram username like @ai_syestem_fx_bot to the bot. It detects:
+
+Chat ID
+
+Account Name
+
+Chat Type (User / Channel)
+
+Message Type: Username
+
+Forwarded: No (Username Lookup)
+
+Example Output:
+
+🔎 Username Detected: @ai_syestem_fx_bot
+🆔 Chat ID: 7966538878
+💬 Account Name: Secret FX Ti
+📂 Chat Type: User
+✉️ Message Title: [No text - Username Lookup]
+🕒 Date & Time: 2025-08-24 08:49:47
+📂 Forwarded: No (Username Lookup)
+📂 Media: No
+📂 Message Type: Username
+
+3. Typed Messages in Private Chat
+
+Send any normal text message directly to the bot. It detects:
+
+Chat ID
+
+Account Name
+
+Chat Type: Private
+
+Sender ID
+
+Message content
+
+Date & Time
+
+Message Type: Typed Message
+
+Example Output:
+
+📌 Chat Info:
+💬 Account Name: Naruto anime lover
+📂 Chat Type: Private
+👤 Sender ID: 6152817532
+✉️ Message Title: Hi i am Tamim ikbal
+🕒 Date & Time: 2025-08-24 08:50:20
+📂 Forwarded: No
+📂 Media: No
+📂 Message Type: Typed Message
+
+##🔹 Auto-Created Files
+File/Folder	Purpose
+credentials.json	Stores Bot Token, API ID & API Hash. Auto-created on first run.
+state.json	Stores destination chat ID & bot state. Auto-created on first run.
+logs/	Saves processed message logs for reference. Auto-created on first run.
 
 
+##🔹 Notes
 
+Make sure your bot is added to groups or channels you want to monitor.
+
+For username lookup, the bot needs to be able to see the user or channel (private usernames may not be detected).
+
+Avoid editing credentials.json and state.json manually unless necessary.
+
+✅ Enjoy using the Telegram Chat ID Detector Bot!
