@@ -4,7 +4,7 @@ Telegram Chat ID Detector Bot: Detects chat IDs, sender IDs, usernames, forwarde
 # Telegram Chat ID Detector Bot
 
 **Project Name:** telegram-chat-id-detector  
-**Author:** ##MD Tamim Ikbal 
+**Author:** MD Tamim Ikbal 
 **License:** MIT  
 
 ---
@@ -65,17 +65,31 @@ pip install -r requirements.txt
 python chat_id.py
 ```
 
-4. **Provide credentials**
+### 4️⃣ Provide Credentials & Start the Bot
 
-Bot Token: Create a bot using BotFather and get the token.
+When you first run the bot (`python chat_id.py`), it will ask for your credentials:
 
-API ID & Hash: Obtain from my.telegram.org
-.
+1. **Bot Token:**  
+   - Open Telegram and start a chat with [BotFather](https://t.me/BotFather).  
+   - Create a new bot using `/newbot` and follow the instructions.  
+   - After creation, BotFather will give you a **Bot Token**. Copy it.  
 
-After entering the credentials, the bot will start:
+2. **API ID & API Hash:**  
+   - Go to [my.telegram.org](https://my.telegram.org).  
+   - Log in with your Telegram account.  
+   - Navigate to **API Development Tools** and create a new application.  
+   - You will get your **API ID** (number) and **API Hash** (string).  
 
-✅ Bot is running...
-👉 Forward any message, type username, or send typed message to test
+3. **Enter Credentials:**  
+   - When the bot asks, paste your **Bot Token**, **API ID**, and **API Hash**.  
+   - The bot will automatically create `credentials.json` to save these for future use.  
+
+4. **Bot Startup:**  
+   - After entering credentials, the bot will connect and start:  
+
+
+**✅ Bot is running...
+👉 Forward any message, type username, or send typed message to test**
 
 
 ##🔹 How It Works
@@ -84,23 +98,14 @@ After entering the credentials, the bot will start:
 When a message is forwarded from a group or channel, the bot extracts:
 
 Chat ID of the original sender or channel
-
 Account Name
-
 Chat Type (Channel / Group)
-
 Sender ID
-
 Message Title or Media Name
-
 Date & Time
-
 Forwarded status
-
 Media type
-
 Message Type: Forwarded
-
 Example Output:
 
 📌 Chat Info:
@@ -119,15 +124,10 @@ Example Output:
 Send a Telegram username like @ai_syestem_fx_bot to the bot. It detects:
 
 Chat ID
-
 Account Name
-
 Chat Type (User / Channel)
-
-Message Type: Username
-
+Message Type: Usernam
 Forwarded: No (Username Lookup)
-
 Example Output:
 
 🔎 Username Detected: @ai_syestem_fx_bot
@@ -143,21 +143,13 @@ Example Output:
 3. Typed Messages in Private Chat
 
 Send any normal text message directly to the bot. It detects:
-
 Chat ID
-
 Account Name
-
 Chat Type: Private
-
 Sender ID
-
 Message content
-
 Date & Time
-
 Message Type: Typed Message
-
 Example Output:
 
 📌 Chat Info:
@@ -180,9 +172,7 @@ logs/	Saves processed message logs for reference. Auto-created on first run.
 ##🔹 Notes
 
 Make sure your bot is added to groups or channels you want to monitor.
-
 For username lookup, the bot needs to be able to see the user or channel (private usernames may not be detected).
-
 Avoid editing credentials.json and state.json manually unless necessary.
 
-✅ Enjoy using the Telegram Chat ID Detector Bot!
+###✅ Enjoy using the Telegram Chat ID Detector Bot!###
