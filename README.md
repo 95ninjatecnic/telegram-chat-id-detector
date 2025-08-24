@@ -65,7 +65,7 @@ pip install -r requirements.txt
 python chat_id.py
 ```
 
-### 4️⃣ Provide Credentials & Start the Bot
+### 🔹 Provide Credentials & Start the Bot
 
 When you first run the bot (`python chat_id.py`), it will ask for your credentials:
 
@@ -91,22 +91,27 @@ When you first run the bot (`python chat_id.py`), it will ask for your credentia
 **✅ Bot is running...
 👉 Forward any message, type username, or send typed message to test**
 
+## 🔹 How It Works
 
-##🔹 How It Works
-1. Forwarded Message Detection
+The **Telegram Chat ID Detector Bot** can detect Chat IDs and other details from forwarded messages, usernames, or typed messages. Here’s how it works:
 
-When a message is forwarded from a group or channel, the bot extracts:
+---
 
-Chat ID of the original sender or channel
-Account Name
-Chat Type (Channel / Group)
-Sender ID
-Message Title or Media Name
-Date & Time
-Forwarded status
-Media type
-Message Type: Forwarded
-Example Output:
+### 1️⃣ Forwarded Message Detection
+
+When a message is **forwarded** from a group or channel, the bot extracts:
+
+- **Chat ID** of the original sender or channel  
+- **Account Name**  
+- **Chat Type** (Channel / Group)  
+- **Sender ID**  
+- **Message Title** or **Media Name**  
+- **Date & Time**  
+- **Forwarded Status**  
+- **Media Type**  
+- **Message Type:** Forwarded  
+
+**Example Output:**
 
 📌 Chat Info:
 🆔 Chat ID: 2062558134
@@ -119,16 +124,19 @@ Example Output:
 📂 Media: No
 📂 Message Type: Forwarded
 
-2. Username Lookup
+---
 
-Send a Telegram username like @ai_syestem_fx_bot to the bot. It detects:
+### 2️⃣ Username Lookup
 
-Chat ID
-Account Name
-Chat Type (User / Channel)
-Message Type: Usernam
-Forwarded: No (Username Lookup)
-Example Output:
+Send a **Telegram username** like `@ai_syestem_fx_bot` to the bot. It detects:
+
+- **Chat ID**  
+- **Account Name**  
+- **Chat Type** (User / Channel)  
+- **Message Type:** Username  
+- **Forwarded:** No (Username Lookup)  
+
+**Example Output:**
 
 🔎 Username Detected: @ai_syestem_fx_bot
 🆔 Chat ID: 7966538878
@@ -140,17 +148,25 @@ Example Output:
 📂 Media: No
 📂 Message Type: Username
 
-3. Typed Messages in Private Chat
+markdown
+Copy
+Edit
 
-Send any normal text message directly to the bot. It detects:
-Chat ID
-Account Name
-Chat Type: Private
-Sender ID
-Message content
-Date & Time
-Message Type: Typed Message
-Example Output:
+---
+
+### 3️⃣ Typed Messages in Private Chat
+
+Send any **normal text message** directly to the bot. It detects:
+
+- **Chat ID**  
+- **Account Name**  
+- **Chat Type:** Private  
+- **Sender ID**  
+- **Message Content**  
+- **Date & Time**  
+- **Message Type:** Typed Message  
+
+**Example Output:**
 
 📌 Chat Info:
 💬 Account Name: Naruto anime lover
@@ -161,6 +177,18 @@ Example Output:
 📂 Forwarded: No
 📂 Media: No
 📂 Message Type: Typed Message
+
+yaml
+Copy
+Edit
+
+---
+
+### ⚡ Summary
+
+- **Forwarded messages**: Extract full info from the original sender or channel  
+- **Username messages**: Detect chat ID & account info via username lookup  
+- **Typed messages**: Detect chat ID and content from normal private messages  
 
 ##🔹 Auto-Created Files
 File/Folder	Purpose
