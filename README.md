@@ -1,2 +1,3 @@
 # telegram-chat-id-detector
-Telegram bot to detect Chat IDs, usernames, forwarded messages, and message info.
+Telegram Chat ID Detector Bot: Detects chat IDs, sender IDs, usernames, forwarded messages, message type, date/time, and media info from Telegram messages using Telethon.
+
