@@ -97,7 +97,7 @@ The **Telegram Chat ID Detector Bot** can detect Chat IDs and other details from
 
 ---
 
-### 1️⃣ Forwarded Message Detection
+### 🔹 Forwarded Message Detection
 
 When a message is **forwarded** from a group or channel, the bot extracts:
 
@@ -113,20 +113,20 @@ When a message is **forwarded** from a group or channel, the bot extracts:
 
 **Example Output:**
 
-📌 Chat Info:
-🆔 Chat ID: 2062558134
-💬 Account Name: Naruto anime lover
-📂 Chat Type: Channel
-👤 Sender ID: 6152817532
-✉️ Message Title: hi
-🕒 Date & Time: 2025-08-24 08:47:25
-📂 Forwarded: Yes
-📂 Media: No
-📂 Message Type: Forwarded
+  - 📌 Chat Info:
+  - 🆔 Chat ID: 2062558134
+  - 💬 Account Name: Naruto anime lover
+  - 📂 Chat Type: Channel
+  - 👤 Sender ID: 6152817532
+  - ✉️ Message Title: hi
+  - 🕒 Date & Time: 2025-08-24 08:47:25
+  - 📂 Forwarded: Yes
+  - 📂 Media: No
+  - 📂 Message Type: Forwarded
 
 ---
 
-### 2️⃣ Username Lookup
+### 🔹 Username Lookup
 
 Send a **Telegram username** like `@ai_syestem_fx_bot` to the bot. It detects:
 
@@ -138,15 +138,15 @@ Send a **Telegram username** like `@ai_syestem_fx_bot` to the bot. It detects:
 
 **Example Output:**
 
-🔎 Username Detected: @ai_syestem_fx_bot
-🆔 Chat ID: 7966538878
-💬 Account Name: Secret FX Ti
-📂 Chat Type: User
-✉️ Message Title: [No text - Username Lookup]
-🕒 Date & Time: 2025-08-24 08:49:47
-📂 Forwarded: No (Username Lookup)
-📂 Media: No
-📂 Message Type: Username
+ - 🔎 Username Detected: @ai_syestem_fx_bot
+ - 🆔 Chat ID: 7966538878
+ - 💬 Account Name: Secret FX Ti
+ - 📂 Chat Type: User
+ - ✉️ Message Title: [No text - Username Lookup]
+ - 🕒 Date & Time: 2025-08-24 08:49:47
+ - 📂 Forwarded: No (Username Lookup)
+ - 📂 Media: No
+ - 📂 Message Type: Username
 
 markdown
 Copy
@@ -154,7 +154,7 @@ Edit
 
 ---
 
-### 3️⃣ Typed Messages in Private Chat
+### 🔹 Typed Messages in Private Chat
 
 Send any **normal text message** directly to the bot. It detects:
 
@@ -168,15 +168,15 @@ Send any **normal text message** directly to the bot. It detects:
 
 **Example Output:**
 
-📌 Chat Info:
-💬 Account Name: Naruto anime lover
-📂 Chat Type: Private
-👤 Sender ID: 6152817532
-✉️ Message Title: Hi i am Tamim ikbal
-🕒 Date & Time: 2025-08-24 08:50:20
-📂 Forwarded: No
-📂 Media: No
-📂 Message Type: Typed Message
+ - 📌 Chat Info:
+ - 💬 Account Name: Naruto anime lover
+ - 📂 Chat Type: Private
+ - 👤 Sender ID: 6152817532
+ - ✉️ Message Title: Hi i am Tamim ikbal
+ - 🕒 Date & Time: 2025-08-24 08:50:20
+ - 📂 Forwarded: No
+ - 📂 Media: No
+ - 📂 Message Type: Typed Message
 
 yaml
 Copy
@@ -190,17 +190,17 @@ Edit
 - **Username messages**: Detect chat ID & account info via username lookup  
 - **Typed messages**: Detect chat ID and content from normal private messages  
 
-##🔹 Auto-Created Files
+###  🔹 Auto-Created Files
 File/Folder	Purpose
 credentials.json	Stores Bot Token, API ID & API Hash. Auto-created on first run.
 state.json	Stores destination chat ID & bot state. Auto-created on first run.
 logs/	Saves processed message logs for reference. Auto-created on first run.
 
 
-##🔹 Notes
+###  🔹 Notes
 
 Make sure your bot is added to groups or channels you want to monitor.
 For username lookup, the bot needs to be able to see the user or channel (private usernames may not be detected).
 Avoid editing credentials.json and state.json manually unless necessary.
 
-###✅ Enjoy using the Telegram Chat ID Detector Bot!###
+###  ✅ Enjoy using the Telegram Chat ID Detector Bot!###
