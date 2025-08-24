@@ -148,9 +148,6 @@ Send a **Telegram username** like `@ai_syestem_fx_bot` to the bot. It detects:
  - 📂 Media: No
  - 📂 Message Type: Username
 
-markdown
-Copy
-Edit
 
 ---
 
@@ -177,10 +174,6 @@ Send any **normal text message** directly to the bot. It detects:
  - 📂 Forwarded: No
  - 📂 Media: No
  - 📂 Message Type: Typed Message
-
-yaml
-Copy
-Edit
 
 ---
 
