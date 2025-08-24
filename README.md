@@ -51,4 +51,22 @@ The bot works in multiple scenarios:
 ```bash
 git clone https://github.com/95ninjatecnic/telegram-chat-id-detector.git
 cd telegram-chat-id-detector
+```
+
+2. **Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the bot**
+
+```bash
+python chat_id.py
+```
+
+
+
+
+
 
