@@ -64,6 +64,17 @@ pip install -r requirements.txt
 ```bash
 python chat_id.py
 ```
+4. ** Node.js packages Install commands:**
+
+```bash
+npm install cfonts chalk gradient-string ora
+```
+
+5. **Python packages:**
+
+```bash
+pip install telethon
+```
 
 ### 🔹 Provide Credentials & Start the Bot
 
