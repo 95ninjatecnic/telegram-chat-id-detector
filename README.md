@@ -78,7 +78,7 @@ pip install telethon
 
 ### 🔹 Provide Credentials & Start the Bot
 
-When you first run the bot (`python chat_id.py`), it will ask for your credentials:
+When you first run the bot (`node main.js`), it will ask for your credentials:
 
 1. **Bot Token:**  
    - Open Telegram and start a chat with [BotFather](https://t.me/BotFather).  
