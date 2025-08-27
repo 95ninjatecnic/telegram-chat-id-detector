@@ -1,22 +1,45 @@
-MIT License
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
 
-**Author:** MD Tamim IKbal
-Copyright (c) 2025 95ninjatecnic
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Definitions.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+   "License" shall mean the terms and conditions for use, reproduction,
+   and distribution as defined by Sections 1 through 9 of this document.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. Grant of Copyright License.
+
+   Subject to the terms and conditions of this License, each contributor
+   hereby grants to you a perpetual, worldwide, non-exclusive, no-charge,
+   royalty-free, irrevocable copyright license to use, reproduce, modify,
+   display, and distribute the Work, provided that:
+
+   a. Any redistribution must include a copy of this License.
+   b. Any modified files must carry prominent notices stating that you
+      changed the files.
+   c. Credit to the original author (Tamim Ikbal / Ninjatecnic Ti) must
+      be given in any redistributed or derivative work.
+
+3. Limitations.
+
+   a. You may not impose additional restrictions beyond those stated
+      in this License.
+   b. You may not use the Work for illegal purposes.
+
+4. Disclaimer of Warranty.
+
+   The Work is provided "AS IS", without warranties or conditions of any
+   kind, either express or implied.
+
+5. Limitation of Liability.
+
+   In no event and under no legal theory, whether in tort, contract, or
+   otherwise, unless required by applicable law (such as deliberate and
+   grossly negligent acts) or agreed to in writing, shall any Contributor
+   be liable to you for damages.
+
+END OF TERMS AND CONDITIONS
+
+Copyright [2025] Tamim Ikbal (Ninjatecnic Ti)
