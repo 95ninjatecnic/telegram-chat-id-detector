@@ -53,28 +53,27 @@ git clone https://github.com/95ninjatecnic/telegram-chat-id-detector.git
 cd telegram-chat-id-detector
 ```
 
-2. **Install dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-3. **Run the bot**
-
-```bash
-node main.js
-```
-4. **Node.js packages Install commands:**
+2. **Install Node.js dependencies**
+Node.js packages (for banner and main.js):
 
 ```bash
 npm install cfonts chalk gradient-string ora
 ```
 
-5. **Python packages:**
+3. **Install Python dependencies**
+Python packages (for chat_id.py bot):
 
 ```bash
 pip install telethon
 ```
+
+4. **Run the project**
+
+```bash
+node main.js
+```
+
+---
 
 ### 🔹 Provide Credentials & Start the Bot
 
