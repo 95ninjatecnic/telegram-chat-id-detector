@@ -62,7 +62,7 @@ pip install -r requirements.txt
 3. **Run the bot**
 
 ```bash
-python chat_id.py
+node main.js
 ```
 4. **Node.js packages Install commands:**
 
