@@ -5,7 +5,7 @@ Telegram Chat ID Detector Bot: Detects chat IDs, sender IDs, usernames, forwarde
 
 **Project Name:** telegram-chat-id-detector  
 **Author:** MD Tamim Ikbal 
-**License:** MIT  
+**License:** Apache 2.0  
 
 ---
 
