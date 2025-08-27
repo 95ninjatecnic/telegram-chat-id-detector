@@ -1,1 +1,8 @@
-telethon>=1.27.0
+# Node.js dependencies (banner + main.js)
+cfonts
+chalk
+gradient-string
+ora
+
+# Python dependencies (chat_id.py)
+telethon
